@@ -1,0 +1,22 @@
+{
+    "name": "𝐔𝐋𝐓𝐈𝐌𝐀𝐓𝐔𝐌-𝐕1 Pairing",
+    "description": "𝐔𝐋𝐓𝐈𝐌𝐀𝐓𝐔𝐌-𝐕1 WA bot, Created by 𝐈𝐒𝐀𝐀𝐂 𝐀𝐑𝐈𝐍𝐎𝐋𝐀 𝐓𝐄𝐂𝐇",
+    "logo": "https://i.ibb.co/3MZpcvr/2fec156e2320d733.jpg",
+    "repository": "https://github.com/isaac2526/ultimatum-v1-pair-code",
+    "keywords": ["LegacyMd"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
